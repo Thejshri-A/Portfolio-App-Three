@@ -367,7 +367,7 @@ article .icon{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 20vh;
+    height: 70vh;
 }
 
 .contact-info-upper-container{
@@ -379,4 +379,34 @@ article .icon{
     background: rgb(250,250, 250);
     margin: 2rem auto;
     padding: 0.5rem;
+}
+
+.contact-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p{
+    font-size: larger;
+}
+
+.contact-icon{
+    cursor: default;
+}
+
+.email-icon{
+    height: 2.5rem;
+}
+
+/* Footer */
+footer{
+    height: 26vh;
+    margin: 0 1rem
+}
+
+footer p{
+    text-align: center;
 }
