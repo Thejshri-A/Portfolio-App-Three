@@ -137,3 +137,23 @@ a:hover{
 .hamburger-icon span:last-child{
     transform: none;
 }
+
+/* SECTION */
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-container{
+    display: flex;
+}
+
+/* PROFILE SECTION */
+
+#profile{
+    display: flex;
+}
+
